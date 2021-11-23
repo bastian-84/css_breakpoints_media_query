@@ -1,0 +1,255 @@
+@charset "UTF-8";
+/* Global */
+body {
+    //background: #003;
+    background-image: linear-gradient(to right bottom, #051937, #002762, #00358f, #0041bd, #124beb);
+    height: 100vh;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+    /* flex */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+p {
+    color: #fff;
+}
+#iShow {
+    display: block;
+    background-color: cyan;
+    content: '';
+}
+
+// ====================================================== //
+// ============= BREAKPOINTS / MEDIA QUERIES ============ //
+// ====================================================== //
+
+/* 16k Plus */
+/*
+@media (min-width: 15361px){
+	#iShow {
+        &::after {
+            content: '16k +: @media (min-width: 15361px)';
+        }
+    }
+}
+*/
+
+/* 16k */
+/*
+@media (min-width: 8191px) and (max-width: 15360px){
+	#iShow {
+        font-size: 500%;
+        &::after {
+            content: '16k: @media (min-width: 8191px) and (max-width: 15360px)';
+        }
+    }
+}
+*/
+
+/* 8k 2 */
+/*
+@media (min-width: 7681px) and (max-width: 8192px){
+	#iShow {
+        font-size: 400%;
+        &::after {
+            content: '8k: @media (min-width: 7681px) and (max-width: 8192px)';
+        }
+    }
+}
+*/
+
+/* 8k */
+/*
+@media (min-width: 5121px) and (max-width: 7680px){
+	#iShow {
+        font-size: 300%;
+        &::after {
+            content: '5k: @media (min-width: 5121px) and (max-width: 7680px)';
+        }
+    }
+}
+*/
+
+/* 5k */
+/*
+@media (min-width: 4097px) and (max-width: 5120px){
+	#iShow {
+        font-size: 300%;
+        &::after {
+            content: '4k2: @media (min-width: 4097px) and (max-width: 5120px)';
+        }
+    }
+}
+*/
+
+/* 4k 2 */
+/*
+@media (min-width: 3841px) and (max-width: 4096px){
+	#iShow {
+        font-size: 300%;
+        &::after {
+            content: '4k: @media (min-width: 3841px) and (max-width: 4096px)';
+        }
+    }
+}
+*/
+
+/* 4k */
+/*
+@media (min-width: 2561px) and (max-width: 3840px){
+	#iShow {
+        font-size: 200%;
+        &::after {
+            content: '2560p: @media (min-width: 2561px) and (max-width: 3840px)';
+        }
+    }
+}
+*/
+
+/* 2560 */
+/*
+@media (min-width: 1921px) and (max-width: 2560px){
+	#iShow {
+
+        &::after {
+            content: '1920: @media (min-width: 1921px) and (max-width: 2560px)';
+        }
+    }
+}
+*/
+
+/* 1920 */
+/*
+@media (min-width: 1601px) and (max-width: 1920px){
+	#iShow {
+
+        &::after {
+            content: '1600: @media (min-width: 1601px) and (max-width: 1920px)';
+        }
+    }
+}
+*/
+
+/* 1600 */
+/*
+@media (min-width: 1441px) and (max-width: 1600px){
+	#iShow {
+
+        &::after {
+            content: '1600: @media (min-width: 1441px) and (max-width: 1600px)';
+        }
+    }
+}
+*/
+
+/* 1440 */
+/*
+@media (min-width: 1281px) and (max-width: 1440px){
+	#iShow {
+
+        &::after {
+            content: '1440p: @media (min-width: 1281px) and (max-width: 1440px)';
+        }
+    }
+}
+*/
+
+/* 1280 */
+/*
+@media (min-width: 1101px) and (max-width: 1280px){
+	#iShow {
+
+        &::after {
+            content: '1280: @media (min-width: 1101px) and (max-width: 1280px)';
+        }
+    }
+}
+*/
+
+/* 1100 - Elementor Desktop */
+/*
+@media (min-width: 1025px) and (max-width: 1100px){
+	#iShow {
+
+        &::after {
+            content: '1100: @media (min-width: 1025px) and (max-width: 1100px)';
+        }
+    }
+}
+*/
+
+/* 1024 */
+/*
+@media (min-width: 993px) and (max-width: 1024px){
+	#iShow {
+
+        &::after {
+            content: '1024p: @media (min-width: 993px) and (max-width: 1024px)';
+        }
+    }
+}
+*/
+
+/* ANKER */
+
+@media (min-width: 993px) {
+	#iShow {
+
+        &::after {
+            content: 'Desktop: @media (min-width: 993px)';
+        }
+    }
+}
+
+/* 992 - Beaver Builder Desktop, Elementor Tablet */
+@media (min-width: 829px) and (max-width: 992px){
+	#iShow {
+
+        &::after {
+            content: '992: @media (min-width: 829px) and (max-width: 992px)';
+        }
+    }
+}
+
+/* 828 - iPhone 11, 11 Pro, Beaver Builder Tablet */
+@media (min-width: 769px) and (max-width: 828px){
+	#iShow {
+
+        &::after {
+            content: '828: @media (min-width: 769px) and (max-width: 828px)';
+        }
+    }
+}
+
+/* 768 - iPad, iPad mini, Beaver Builder Mobile, Elementor Mobile */
+@media (min-width: 751px) and (max-width: 768px){
+	#iShow {
+       
+        &::after {
+            content: '768: @media (min-width: 751px) and (max-width: 768px)';
+        }
+    }
+}
+
+/* 750 - iPhone 6, 7, 8, SE 2 */
+@media (min-width: 641px) and (max-width: 750px){
+	#iShow {
+
+        &::after {
+            content: '750: @media (min-width: 641px) and (max-width: 750px)';
+        }
+    }
+}
+
+/* 640 - iPhone 5, SE */
+@media (max-width: 640px){
+	#iShow {
+
+        &::after {
+            content: '640p: @media (max-width: 640px)';
+        }
+    }
+}
