@@ -169,87 +169,61 @@ p {
 }
 */
 
-/* 1100 - Elementor Desktop */
-/*
-@media (min-width: 1025px) and (max-width: 1100px){
+/* Elementor Desktop (1024 - >px) */
+
+@media (min-width: 1024px) and (max-width: 1100px){
 	#iShow {
 
         &::after {
-            content: '1100: @media (min-width: 1025px) and (max-width: 1100px)';
+            content: 'Elementor Desktop (1024 - 1100px): @media (min-width: 1025px) and (max-width: 1100px)';
+        }
+    }
+}
+
+/* Beaver Builder Desktop (992 - >px) */
+/*
+@media (min-width: 992px) and (max-width: 1100px){
+	#iShow {
+
+        &::after {
+            content: 'Beaver Builder Desktop (992 - 1100px): @media (min-width: 993px)';
         }
     }
 }
 */
 
-/* 1024 */
-/*
-@media (min-width: 993px) and (max-width: 1024px){
+/* Elementor Tablet (768 - 1023px) */
+
+@media (min-width: 768px) and (max-width: 1023px){
 	#iShow {
 
         &::after {
-            content: '1024p: @media (min-width: 993px) and (max-width: 1024px)';
+            content: 'Elementor Tablet (768 - 1023px): @media (min-width: 768px) and (max-width: 1023px)';
+        }
+    }
+}
+
+
+/* Beaver Builder Tablet (768 - 991px) */
+/*
+@media (min-width: 768px) and (max-width: 991px){
+	#iShow {
+
+        &::after {
+            content: 'BB tablet (768 - 991px): @media (min-width: 768px) and (max-width: 991px)';
         }
     }
 }
 */
 
-/* ANKER */
 
-@media (min-width: 993px) {
+
+/* lowest, Beaver Builder Mobile (1 - 767px), Elementor Mobile (1 - 767px) */
+@media (max-width: 767px){
 	#iShow {
 
         &::after {
-            content: 'Desktop: @media (min-width: 993px)';
-        }
-    }
-}
-
-/* 992 - Beaver Builder Desktop, Elementor Tablet */
-@media (min-width: 829px) and (max-width: 992px){
-	#iShow {
-
-        &::after {
-            content: '992: @media (min-width: 829px) and (max-width: 992px)';
-        }
-    }
-}
-
-/* 828 - iPhone 11, 11 Pro, Beaver Builder Tablet */
-@media (min-width: 769px) and (max-width: 828px){
-	#iShow {
-
-        &::after {
-            content: '828: @media (min-width: 769px) and (max-width: 828px)';
-        }
-    }
-}
-
-/* 768 - iPad, iPad mini, Beaver Builder Mobile, Elementor Mobile */
-@media (min-width: 751px) and (max-width: 768px){
-	#iShow {
-       
-        &::after {
-            content: '768: @media (min-width: 751px) and (max-width: 768px)';
-        }
-    }
-}
-
-/* 750 - iPhone 6, 7, 8, SE 2 */
-@media (min-width: 641px) and (max-width: 750px){
-	#iShow {
-
-        &::after {
-            content: '750: @media (min-width: 641px) and (max-width: 750px)';
-        }
-    }
-}
-
-/* 640 - iPhone 5, SE */
-@media (max-width: 640px){
-	#iShow {
-
-        &::after {
-            content: '640p: @media (max-width: 640px)';
+            content: 'lowest, Beaver Builder Mobile (1 - 767px), Elementor Mobile (1 - 767px): @media (max-width: 767px)';
         }
     }
 }
